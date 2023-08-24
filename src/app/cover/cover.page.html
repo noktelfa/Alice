@@ -1,0 +1,22 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Cover</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-header collapse="condense">
+  <ion-toolbar>
+    <ion-title size="large">Alice’s Adventures in Wonderland</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+    <ion-img src="../assets/cover.jpg" alt=""></ion-img> 
+    <ion-footer>
+      <ion-menu-button id="cover-menu-link" class="back-button">
+        <ion-icon name="bookmarks-outline"></ion-icon>
+      </ion-menu-button>
+      <ion-button href="/credits" class="next-button" vertical="bottom" horizontal="end" >
+        <ion-icon name="arrow-forward-outline"></ion-icon>
+      </ion-button>
+    </ion-footer>
+</ion-content>
